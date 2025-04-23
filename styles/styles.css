@@ -1,0 +1,77 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* background: linear-gradient(in hsl longer hue, rgb(134, 74, 74), #faf8f9); */
+  background: linear-gradient(#baa2a2, #9198e5);
+  /* font-size: large; */
+}
+
+.navbar{
+    /* background-color: #200101; */
+     background: linear-gradient(to bottom right, #230101, #4d0505); 
+}
+
+  .left-column {
+      background-color: #ede7e7;
+  }
+
+  .profile-section,
+  .contact-section {
+      padding: 1.5rem;
+  }
+
+  .aptitudes-fill {
+      height: 14px;
+      background-color: #3f3c34bf;
+      color: white;
+      text-align:end;
+      padding-right: 5px;
+      font-size: 0.7rem;
+      border-radius: 15px;
+  }
+
+  .aptitudes-bar {
+      background-color: #e5dfce;
+      border-radius: 5px;
+      overflow: hidden;
+
+      font-weight: bolder;
+  }
+
+  h1,
+  h2 {
+      font-weight: bold;
+  }
+
+  .section-title {
+      /* background-color: #2e5e20; */
+      /* background: linear-gradient(to bottom right, #2e5e20, #6d9459); */
+      background: linear-gradient(70deg, #5e2024, #efb9b9);
+      font-weight: bolder;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 0.25rem;
+      margin-bottom: 1rem;
+  }
+
+  .accordion-button:not(.collapsed) {
+      background-color: #ede7e7;
+      color: #000;
+  }
+
+  .badge {
+      font-size: 0.9rem;
+      margin: 0.2rem;
+  }
+
+  footer {
+    background: rgb(32, 0, 0);
+    padding: 10px;
+    width: 100%;
+    /* margin-top: 10px;
+    margin-bottom: 0px;*/
+    /* bottom: 0;  */
+    position: relative;
+    color: white;
+    text-align:justify;
+    /* font-weight: bold; */
+}
