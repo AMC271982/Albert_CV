@@ -1,3 +1,6 @@
+.lang-content { display: none; }
+.lang-content.active { display: block; }
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   /* background: linear-gradient(in hsl longer hue, rgb(134, 74, 74), #faf8f9); */
@@ -19,6 +22,7 @@ body {
       padding: 1.5rem;
   }
 
+  
   .aptitudes-fill {
       height: 14px;
       background-color: #3f3c34bf;
