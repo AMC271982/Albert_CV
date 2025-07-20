@@ -24,9 +24,14 @@ body {
   .profile-section,
   .contact-section {
       padding: 1.5rem;
+      background-color: #f5f5f5;
   }
 
-  
+  .languages-section {
+      padding: 1.5rem;
+      background-color: #f5f5f5;
+  }
+
   .aptitudes-fill {
       height: 14px;
       background-color: #3f3c34bf;
