@@ -13,81 +13,47 @@
 
 <body>
     <!-- CABECERA -->
-    <nav class="navbar navbar-expand-sm bg-dark sticky-top" data-bs-theme="dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><strong>Curriculum Vitae</strong></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-sm-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home<span><a href="index.html" title="Home">
-                                </a></span></a>
-                    </li>
-                    <!-- </ul> -->
-                    <!-- <ul class="navbar-nav mb-2 mb-sm-0"> -->
-
-                    <li class="nav-item">
-                        <a class="nav-link"><span>SPA<a href="index_esp.html" title="Spanish">
-                                    <img src="https://flagcdn.com/24x18/es.png" alt="Español"
-                                        style="width: 35px; height: 24px;">
-                                </a></span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link"><span>ENG<a href="index.html" title="English">
-                                    <img src="https://flagcdn.com/24x18/us.png" alt="English"
-                                        style="width: 35px; height: 24px;">
-                                </a><span></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-
-    <div class="container my-5 shadow-lg bg-white rounded">
-        <div class="row">
-            <!-- Columna izquierda -->
-            <div class="col-md-4 left-column">
-                <div class="text-center mt-4">
+    <div id="header"></div>
+    <!-- Body's Curriculum -->
+    <main class="container mt-4 mb-5 pb-5"></main>
+        <div class="container my-5 shadow-lg bg-white rounded">
+            <div class="row">
+                <!-- Columna izquierda -->
+                <div class="col-md-4 left-column">
+                    <div class="text-center mt-4">
                     <h1>Albert Alexis<br>Monsalve Cobis</h1>
                     <h5 class="text-muted">Public Accountant</h5>
-                </div>
+                    </div>
 
-                <div class="profile-section">
-                    <div class="section-title">PROFESSIONAL SUMMARY</div>
-                    <p>I am a results-driven professional with extensive experience in the financial, accounting, and
+                    <div class="profile-section">
+                        <div class="section-title">PROFESSIONAL SUMMARY</div>
+                        <p>I am a results-driven professional with extensive experience in the financial, accounting, and
                         auditing fields, including specialized audits for NGOs and UN agencies. I excel in designing and
                         implementing innovative financial solutions and internal controls to optimize efficiency and
                         mitigate risks. My track record includes conducting audits for internationally recognized
                         organizations, maximizing value for stakeholders, ensuring regulatory compliance, and fostering
                         sustainable growth in both corporate and nonprofit environments. </p>
-                </div>
+                    </div>
 
-                <div class="contact-section">
-                    <div class="section-title">CONTACT</div>
-                    <p><strong>Phone:</strong>+58 - 412 8095135</p>
-                    <p><strong>Email:</strong><a class="text-dark px-1" href="mailto:albertmonsalve@gmail.com"
+                    <div class="contact-section">
+                        <div class="section-title">CONTACT</div>
+                        <p><strong>Phone:</strong>+58 - 412 8095135</p>
+                        <p><strong>Email:</strong><a class="text-dark px-1" href="mailto:albertmonsalve@gmail.com"
                             target="_blank">albertmonsalve@gmail.com</a></p>
-                    <p><strong>Web-site:</strong><a class="text-dark px-1" href="https://amc271982.github.io/Albert_CV"
+                        <p><strong>Web-site:</strong><a class="text-dark px-1" href="https://amc271982.github.io/Albert_CV"
                             target="_blank">CV_Albert Monsalve</a></p>
-                    <p><strong>Linkedln profile:</strong> Albert Monsalve linked<a class="text-dark px-1" href="https://www.linkedin.com/in/albert-monsalve-066a1576"
+                        <p><strong>Linkedln profile:</strong> Albert Monsalve linked<a class="text-dark px-1" href="https://www.linkedin.com/in/albert-monsalve-066a1576"
                             target="_blank"><i class="bi bi-linkedin"></i></a>
-                    </p>
-                </div>
+                        </p>
+                    </div>
             
-            <div class="languages-section">
-                    <div class="section-title">LANGUAGES</div>
-                    <ul>
-                        <li><strong>Spanish:</strong> Native.</li>
-                        <li><strong>English:</strong> B2 (not Certified)</li>
-                    </ul>
-            </div>
-
+                <div class="languages-section">
+                        <div class="section-title">LANGUAGES</div>
+                        <ul>
+                            <li><strong>Spanish:</strong> Native.</li>
+                            <li><strong>English:</strong> B2 (not Certified)</li>
+                        </ul>
+                </div>
             </div>
             <!-- Columna derecha -->
             <div class="col-md-8 p-4">
@@ -375,19 +341,26 @@
 
             </div>
         </div>
+     </main>   
     </div>
-    </div>
-    </div>
+    <!-- </div>
+    </div> -->
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="js/componentes.js">
+        const lang = navigator.language || navigator.userLanguage;
+        if (lang.startsWith("en")) {
+            window.location.href = "index.html";
+        } else {
+            window.location.href = "index_esp.html";
+        }
+    </script>
 
     <!-- Bootstrap JS Bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
-<div>
-    <footer class="text-bg p-2 text-center fixed-bottom">
-        <p>&copy; 2025 Albert A. Monsalve Cobis - All rights reserved.</p>
-    </footer>
-</div>
+<div id="footer"></div>
 
 </html>
 
