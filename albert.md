@@ -11,7 +11,6 @@ I am a Public Accountant. My areas of expertise include:
 
 
 ## 💻 Technologies and Tools
-- **Programming Languages:** Python, R, MATLAB, Java, HTML, CSS, JavaScript(basic)
 - **Areas of Interest:** Data Science, Machine Learning, Full Stack Development, Big Data
 - **Software and Libraries:** NumPy, Pandas, Scikit-learn, Matplotlib.
 - **Data Visualization:** ggplot2, plotly

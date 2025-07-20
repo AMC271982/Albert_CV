@@ -27,10 +27,27 @@
                             <img src="https://flagcdn.com/24x18/us.png" alt="English" style="width: 35px; height: 24px;">
                           </a>
                     </li>
-                    <li class="downloads">
+                    <!-- <li class="downloads">
                         <a class="nav-link" href="downloads.html">Download-CV <br>
                             <i class="bi bi-box-arrow-down" title="Download-CV" style="font-size: 25px;"></i></a>
+                    </li> -->
+                    <li class="downloads position-relative">
+                    <a class="nav-link" href="#" onclick="togglePopup()" title="Download-CV">
+                        Download-CV <br>
+                        <i class="bi bi-box-arrow-down" style="font-size: 25px;"></i>
+                    </a>
+
+                    <!-- Popup tipo bocadillo -->
+                    <div id="cvPopup" class="cv-popup" style="display: none;">
+                        <p>Selecciona versión:</p>
+                        <a href="./pdfs/Albert CV Version Español_PDF.pdf" download>📘 CV Detallado</a><br>
+                        <a href="./pdfs/Albert CV Version Ingles_EN.pdf" download>📗 CV Resumen</a>
+                    </div>
                     </li>
+
+
+
+                    
                 </ul>
             </div>
         </div>
