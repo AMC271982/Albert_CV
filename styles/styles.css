@@ -92,17 +92,17 @@ body {
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: #212529;
+  background-color: #292521;
   color: #fff;
   padding: 10px;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   z-index: 1000;
   font-size: 14px;
 }
 
 .cv-popup a {
-  color: #0dcaf0;
+  color: #f00d68;
   text-decoration: none;
   display: block;
   margin-bottom: 5px;
